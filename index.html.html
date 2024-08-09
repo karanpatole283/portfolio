@@ -1,0 +1,133 @@
+<!---Log-in-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <script src="js/owl.carousel.min.js"></script>
+  <title>Portfolio</title>
+
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" id="click">
+    <label for="click" class="mainicon">
+      <div class="menu">
+        <i class="bi bi-list"></i>
+      </div>
+    </label>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#MiniProject">MiniProject</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section>
+    <div class="main">
+      <div class="detail">
+        <h1><span>Hi, It's Me</span> <br> I'm <span style="color:#00E8F8;">Chandrakant Patole</span></h1>
+        <p>An aspiring computer engineer <br> and technology enthusiast. </p>
+        <div class="social">
+          <a href="https://github.com/karanpatole283"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/call.me.ck/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/chandrakant-patole283/"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+      <div class="images">
+        <img src="img/pass.png" alt="" width="590" height="460">
+      </div>
+    </div>
+  </section>
+
+  <!---About Me-->
+  <section id="about">
+    <div class="about-me">
+      <div class="icon">
+        <img src="img/pass4.jpeg" alt="" width="412" height="512">
+      </div>
+      <div>
+        <h2>About <span style="color:#00E8F8">Me</span></h2>
+        <p>As a Final-year computer engineering student, 
+          I am passionate about using technology to solve real-world problems,
+          and seeking opportunities to enhance skills and contribute to the technology industry</p>
+        <div class="contact">
+          <span><i class="bi bi-telephone-fill"></i></span>+91 782 20## ###
+          <span><i class="bi bi-envelope-check-fill"></i></span>karanpatole283@gmail.com
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- --Project Section--->
+  <section id="Project" id="Project">
+    <div class="Project">
+      <h2>My <span style="color: #00E8F8;">MiniProject</span></h2>
+      <div class="Project-box">
+        <div class="info-box">
+          <i class="bi bi-code-slash"></i>
+          <h3> Retail Management Software</h3>
+          <p>Developed a Python-based retail management application utilizing Pandas
+            for efficient data manipulation.
+            Employed prompt engineering to drive development, overcome
+            challenges, and enhance software functionality.
+            Designed a user-friendly menu interface for seamless navigation and
+            interaction with the software.
+            Continuously enhancing the application by integrating new features
+            based on market trends, demonstrating adaptability and a commitment to
+            improvement</p>
+        </div>
+        <div class="info-box">
+          <i class="bi bi-eye"></i>
+          <h3>AR Lens Development</h3>
+          <p>Developed and submitted an AR lens for the Lensathon hackathon, a
+            global competition hosted by Snapchat to create innovative AR
+            experiences. My lens allows user to enhance there selfies with added
+            beauty effects & HDR effect <a href="https://lens.snapchat.com/85c3e90e9bc74436b4
+            c5f871570818b2">Snapchat project link</a></p>
+        </div>
+        <div class="info-box">
+          <i class="bi bi-plus-circle"></i>
+          <h3>User-Friendly Chatbot with Gemini Integration</h3>
+          <p>Developed a conversational AI chatbot using Python to provide
+            interactive and informative user experiences.
+            Leveraged prompt engineering techniques to create engaging and
+            relevant chatbot responses.
+            Integrated Google Gemini's data server to enhance chatbot knowledge
+            and accuracy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!--Contct Us-->
+  <section class="contact-form" id="contact">
+    <h2>Leave <span style="color: #00E8F8">Massage</span></h2>
+    <form action="#">
+      <div class="input-data">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+      </div>
+      <div class="input-data">
+        <input type="email" name="email" placeholder="Email">
+        <input type="tel" name="number" max="10" placeholder="Phone No">
+      </div>
+      <textarea name="massage" placeholder="Write Massage" rows="10"></textarea>
+      <input type="submit" value="Send" class="send">
+    </form>
+  </section>
+
+</html>
